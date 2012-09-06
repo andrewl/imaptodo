@@ -1,0 +1,21 @@
+<?php
+$username = 'username@example.com';
+$password = 'password';
+
+/* Optional settings */
+/*
+$todo - the location of the todo cli file. Default:
+$todo = '/usr/local/bin/todo.sh';
+*/
+
+/*
+$imap_connection - the connection string to use to connect to 
+your imap server. Default is gmail's
+$imap_connection = "imap.imap.com:993/imap/ssl";
+*/
+
+/*
+$imap_folder - the folder to use. If 'starred' then retrieve
+all flagged messages from the INBOX
+$imap_folder = 'starred';
+*/
